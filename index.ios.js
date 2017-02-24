@@ -26,7 +26,7 @@ class apiCallsPokemon extends Component {
     PokeAPI.getPokemon(this.state.pokemonName.toLowerCase()).then((pokemon) => {
       this.setState({animating: false})
       this.setState({pokemon})
-      
+
     }).catch((error) => {
       this.setState({error, animating: false})
     });
@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#3f89e2',
   },
   indicator: {
-    marginTop: 10, 
+    marginTop: 10,
     paddingLeft: 10
   },
   buttonText: {
