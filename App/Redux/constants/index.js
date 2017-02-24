@@ -1,0 +1,7 @@
+export const FETCH_POKEMON = 'FETCH_POKEMON';
+
+export const GOT_POKEMON = 'GOT_POKEMON';
+
+export const SET_LOADING = 'SET_LOADING';
+
+export const FETCH_POKEMON_FAILED = 'FETCH_POKEMON_FAILED';

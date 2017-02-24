@@ -1,5 +1,5 @@
 import React from 'react';
 import { AppRegistry } from 'react-native';
-import App from './App/App'
+import AppContainer from './App/AppContainer'
 
-AppRegistry.registerComponent('apiCallsPokemon', () => App);
+AppRegistry.registerComponent('apiCallsPokemon', () => AppContainer);
