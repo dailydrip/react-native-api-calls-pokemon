@@ -9,7 +9,7 @@ import {
   View
 } from 'react-native';
 
-import { fetchPokemon } from './Redux/actions'
+import { getPokemon } from './Redux/actions'
 import { connect } from 'react-redux';
 
 import Styles from './Styles/ApplicationStyle'
@@ -86,7 +86,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    getPokemon: (name) => dispatch(fetchPokemon(name))
+    getPokemon: (name) => dispatch(getPokemon(name))
   };
 }
 
@@ -96,4 +96,3 @@ const AppWithRedux = connect(
 )(apiCallsPokemon);
 
 export default AppWithRedux;
-
