@@ -11,3 +11,10 @@ export const gotPokemon = (pokemon) => {
     pokemon,
   }
 }
+
+export const fetchPokemonFailed = (error) => {
+  return {
+    type: FETCH_POKEMON_FAILED,
+    error,
+  }
+}
